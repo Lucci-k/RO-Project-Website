@@ -24,6 +24,7 @@ h1 {
 .header-img {
     background: url('/img/header.jpg');
     height: 300px;
+    min-height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,6 +41,11 @@ nav {
     justify-content: space-evenly;
     background: linear-gradient(-45deg, #D9704A, #BF5349);
     padding: 5px 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
 }
 
 ul {
@@ -94,6 +100,7 @@ a:hover {
     display: flex;
     flex-flow: column;
     margin: 50px;
+    text-align: center;
 }
 
 .signupInput {
@@ -113,13 +120,13 @@ a:hover {
 .product-containers {
     max-width: 350px;
     max-height: 286px;
-    margin: 30px;
+    margin: 50px;
 }
 
 .product-img {
     height: 150px;
     width: 150px;
-    float: left;
+    float: right;
     margin: 0px 5px 5px 0px;
     box-shadow: 3px 3px #888888, -1em 0 .4em #888888;
     transition: .5s;
@@ -180,4 +187,21 @@ button:hover {
     display: flex;
     justify-content: center;
     align-self: flex-end;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-containers {
+    padding: 0px 40px;
+    max-width: 600px;
+    max-height: 286px;
+    margin: 30px;
+}
+
+.about-final {
+    display: flex;
+    justify-content: space-evenly;
 }
